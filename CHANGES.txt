@@ -1,0 +1,5 @@
+release 0.0.1
+-----------------
+bu release de şu buglar düzeltildi
+
+bu release de şu yeni özellikler eklendi

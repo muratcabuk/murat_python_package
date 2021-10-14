@@ -1,0 +1,1 @@
+proje kapsamında bazı işler için pratik scripler hazırlanıp bu klasöre konulabilir
