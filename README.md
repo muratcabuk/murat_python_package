@@ -3,9 +3,7 @@ Bu paket şu işe yarar şunları yapar vs vs gibi birşeyler tazması gerkiyor 
 
 aslında setup.cfg doyası kullanılmasa  da olur. biz sadece bu da var demek için ekledik. setup.py ile wheel python2 ve 3 için  zaten eskiye uyumluluk problemini çözüyor.
 
-
-
-
+CLI uygulaması geliştirmek için click paketi kullanıldı. Amaç sadece ornek yapmak.
 
 
 - **twine**: pypi sitesine daha doğrusun api sine bağlanmak ve paketlerimizi deploy etmek için gerekli
@@ -56,9 +54,10 @@ twine check dist/*
 
 # upload için doğrulama. pupi.org domaini değl test.pypi.org sitesine ayrıca üye olmak gerekiyor.
 twine upload -r testpypi dist/*
+# eğer buraya publish yapabildiyseniz artık gerçek yere publish yapılabilir
 
 
-
+twine upload dist/*
 ```
 
 
