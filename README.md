@@ -67,6 +67,7 @@ twine upload dist/*
 - https://packaging.python.org/
 - https://packaging.python.org/specifications/
 - https://packaging.python.org/tutorials/packaging-projects/
+- https://docs.python.org/3/distutils/setupscript.html
 - https://realpython.com/pypi-publish-python-package/
 - https://towardsdatascience.com/whats-init-for-me-d70a312da583
 - https://packaging.python.org/guides/packaging-namespace-packages/

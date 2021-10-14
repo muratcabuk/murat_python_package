@@ -12,7 +12,7 @@ HERE = pathlib.Path(__file__).parent
 LONG_DESCRIPTION = (HERE / "README.md").read_text()
 setup(
     name="murat_python_package",
-    version="0.0.1",
+    version="0.0.3",
     author="Murat Çabuk",
     author_email="mcabuk@gmail.com",
     description="A small example package",
@@ -33,4 +33,11 @@ setup(
     packages=find_packages(where="src",exclude=("tests",)),
     python_requires=">=3.6",
     options={"bdist_wheel": {"universal": "1"}},
+    entry_points={
+        'console_scripts': [
+            'murat_python_package = murat_python_package.main_pkg.main_module:main_fonksiyon',
+        ],
+    },
+
+
 )
