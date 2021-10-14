@@ -12,7 +12,7 @@ HERE = pathlib.Path(__file__).parent
 LONG_DESCRIPTION = (HERE / "README.md").read_text()
 setup(
     name="murat_python_package",
-    version="0.0.3",
+    version="0.0.4",
     author="Murat Çabuk",
     author_email="mcabuk@gmail.com",
     description="A small example package",

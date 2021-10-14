@@ -1,3 +1,6 @@
+release 0.0.4
+-----------------
+click ve açılış script i eklendi
 
 release 0.0.3
 -----------------
